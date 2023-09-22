@@ -1,5 +1,42 @@
-html, body, *{
-padding: 0;
-margin: 0;
+html,
+body,
+* {
+    font-family: 'Lateef', serif;
+    font-family: 'Libre Baskerville', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    background-color: #fbdae2;
+}
+.header{
+    font-size: 7rem;
+    text-align: center;
+    margin: 3rem 5rem;
+}
+h1{
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://i.pinimg.com/564x/3d/fa/8a/3dfa8a58478b53b8d7ca731f500edc64.jpg);
 
+}
+.box1row1{
+background-color: #fbcfd6;
+height: 500px;
+width: 30%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+border-radius: 1rem;
+box-shadow: 10px 10px 5px 2px #e0a8b2;
+margin: 5rem 5rem
+}
+.album-1{
+height: 80%;
+display: flex;
+justify-content: center;
 }
