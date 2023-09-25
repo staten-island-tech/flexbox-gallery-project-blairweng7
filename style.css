@@ -23,7 +23,7 @@ body,
 }
 
 h1{
-    height: 11rem;
+    height: 15vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,7 +33,7 @@ h1{
 }
 .box-row{
 background-color: #fbcfd6;
-height: 37rem;
+height: 50vh;
 width: 20%;
 display: flex;
 flex-direction: column;
