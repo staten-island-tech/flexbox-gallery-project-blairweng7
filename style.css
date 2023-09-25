@@ -7,13 +7,21 @@ body,
     padding: 0;
     box-sizing: border-box;
     font-size: 62.5%;
-    background-color: #fbdae2;
+    background-color: #ffe0e8;
+}
+.boxes{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 .header{
     font-size: 7rem;
     text-align: center;
     margin: 3rem 5rem;
 }
+
 h1{
     height: 15vh;
     display: flex;
@@ -23,20 +31,27 @@ h1{
     background-image: url(https://i.pinimg.com/564x/3d/fa/8a/3dfa8a58478b53b8d7ca731f500edc64.jpg);
 
 }
-.box1row1{
+.box-row{
 background-color: #fbcfd6;
-height: 500px;
-width: 30%;
+height: 50vh;
+width: 20%;
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: space-around;
 border-radius: 1rem;
 box-shadow: 10px 10px 5px 2px #e0a8b2;
-margin: 5rem 5rem
+margin: 3rem 3rem
 }
-.album-1{
-height: 80%;
+
+.album-img{
+height: 70%;
 display: flex;
 justify-content: center;
+object-fit: cover;
+}
+.about-text{
+    background-color: #fbcfd6;
+    font-size: 1.5rem;
+    text-align: center;
 }
