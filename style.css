@@ -23,7 +23,7 @@ body,
 }
 
 h1{
-    height: 15vh;
+    height: 11rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,7 +40,7 @@ flex-direction: column;
 align-items: center;
 justify-content: space-around;
 border-radius: 1rem;
-box-shadow: 10px 10px 5px 2px #e0a8b2;
+box-shadow: 1rem 1rem 0.5rem 0.2rem #e0a8b2;
 margin: 3rem 3rem
 }
 
