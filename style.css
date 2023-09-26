@@ -44,11 +44,17 @@ box-shadow: 1rem 1rem 0.5rem 0.2rem #e0a8b2;
 margin: 3rem 3rem
 }
 
+.box-row:hover{ :red;
+    transform: scale(1.1);
+}
+.box-row
+
 .album-img{
 height: 70%;
 display: flex;
 justify-content: center;
 object-fit: cover;
+filter:grayscale(80%)
 }
 .about-text{
     background-color: #fbcfd6;
