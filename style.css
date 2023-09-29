@@ -51,6 +51,7 @@ h1 {
     align-items: center;
     justify-content: center;
     background-image: url(https://i.pinimg.com/564x/3d/fa/8a/3dfa8a58478b53b8d7ca731f500edc64.jpg);
+    text-align: center;
 }
 
 
@@ -106,17 +107,34 @@ h1 {
 
 @media screen and (max-width: 1280px) {
    .header{
-    width: 40%;
+    width: 100%;
    }
     .box-row {
         width: 40%;
     }
+    .album-img{
+        width: 80%;
+    }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1080px) {
     .header{
-        width: 40%;
+        width: 100%;
     }
     .box-row{
         width: 40%;
+    }
+    .album-img{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .header{
+        width: 100%;
+    }
+    .box-row{
+        width: 40%;
+    }
+    .album-img{
+        width: 80%;
     }
 }
