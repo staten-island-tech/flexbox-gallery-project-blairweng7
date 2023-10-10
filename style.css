@@ -111,26 +111,29 @@ h1 {
     .box-row {
         width: 40%;
     }
- 
+
 }
+
 @media screen and (max-width: 1080) {
 
-    .box-row{
+    .box-row {
         width: 40%;
- 
+
     }
 }
+
 @media screen and (max-width: 768) {
-  
-    .box-row{
+
+    .box-row {
         width: 40%;
     }
-  
+
 }
+
 @media screen and (max-width: 480px) {
-  
-    .box-row{
+
+    .box-row {
         width: 40%;
     }
-  
+
 }
