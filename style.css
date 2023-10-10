@@ -79,9 +79,10 @@ h1 {
 
 .album-img {
     height: 70%;
+    width: 90%;
     display: flex;
     justify-content: center;
-    object-fit: cover;
+    object-fit: inherit;
     filter: blur(2px);
 }
 
@@ -105,36 +106,31 @@ h1 {
     transform: translateY(-20px);
 }
 
-@media screen and (max-width: 1280px) {
-   .header{
-    width: 100%;
-   }
+@media screen and (max-width: 1200px) {
+
     .box-row {
         width: 40%;
     }
-    .album-img{
-        width: 80%;
+ 
+}
+@media screen and (max-width: 1080) {
+
+    .box-row{
+        width: 40%;
+ 
     }
 }
-@media screen and (max-width: 1080px) {
-    .header{
-        width: 90%;
-    }
+@media screen and (max-width: 768) {
+  
     .box-row{
         width: 40%;
     }
-    .album-img{
-        width: 80%;
-    }
+  
 }
-@media screen and (max-width: 768px) {
-    .header{
-        width: 80%;
-    }
+@media screen and (max-width: 480px) {
+  
     .box-row{
         width: 40%;
     }
-    .album-img{
-        width: 80%;
-    }
+  
 }
